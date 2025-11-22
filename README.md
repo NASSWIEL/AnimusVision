@@ -49,26 +49,6 @@ Understanding what the model "sees" is crucial for interpretability. We visualiz
 
 *Heat map overlays showing the model's attention regions. The activation maps highlight key distinguishing features such as elephant trunks, tiger stripes, and fox facial structures, demonstrating that the model has learned meaningful patterns.*
 
----
-
-## Technical Stack
-
-- **PyTorch** - Deep learning framework
-- **OpenCV** - Image processing
-- **NumPy** - Numerical computations
-- **Matplotlib** - Visualization
-- **scikit-learn** - Data splitting and preprocessing
-- **torchvision** - Pre-trained models and transforms
 
 ---
 
-## Key Features
-
-- **Dual Architecture Approach** - Compare custom CNN vs. transfer learning  
-- **Weighted Loss Function** - Handles class imbalance effectively  
-- **Early Stopping** - Prevents overfitting with patience-based monitoring  
-- **Learning Rate Scheduling** - Adaptive learning rate reduction  
-- **Feature Map Visualization** - Interpretable model decisions  
-- **Comprehensive Evaluation** - Real-world testing with internet images  
-
----
